@@ -19,6 +19,6 @@ lr <- function(null, x, digits=3){
   lratio<--2*lambda
   p<-1-pchisq(lratio, 1)
   
-  round(c("Under HO"=unres, "Under HA"=res, "Lambda"=lambda,"-2Log Lambda"=lratio, "p-value"=p), digits)
+  round(c("Under HO"=res, "Under HA"=unres, "Lambda"=lambda,"-2Log Lambda"=lratio, "p-value"=p), digits)
   
 }
