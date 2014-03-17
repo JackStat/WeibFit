@@ -8,5 +8,5 @@ To install this package run the following code.  Note that the package changes o
 ```
 require(devtools)
 install_github("WeibFit", "JackStat")
-require(CompPack)
+require(WeibFit)
 ```
